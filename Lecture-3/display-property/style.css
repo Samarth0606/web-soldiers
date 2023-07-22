@@ -1,0 +1,23 @@
+.container{
+    width: 250px;
+    height: 250px;
+    background-color: rgb(217, 176, 12);
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+}
+
+.span{
+    /* display: block; */
+    /* display: inline-block; */
+    display: none;
+    visibility: hidden;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(217, 63, 12);
+    padding: 20px;
+    border: 5px solid black;
+    margin: 20px;
+
+}
+

@@ -1,0 +1,87 @@
+
+
+/* .container{
+    width: 250px;
+    height: 250px;
+    border: 2px solid black;
+    background-color: blueviolet;
+} */
+
+/* hover pseudoclass */
+
+/* .container:hover{
+    cursor: pointer;
+    background-color: brown;
+    border-radius: 50%;
+} */
+
+/* -------------------------------- */
+
+/* focus  pseudoclass --> input elements */
+
+/* input{
+    outline: none;
+} */
+
+/* input:focus{
+    background-color: aquamarine;
+    font-size: 50px
+} */
+
+
+/* -------------------------------------- */
+
+/* active pseudoclass*/
+/* a:active{
+    font-size: 50px;
+    color: red;
+} */
+
+/* p:active{
+    font-size: 50px;
+    color: red;
+} */
+
+/* ----------------------------------- */
+
+/* visited -> anchor tags*/
+
+/* a:visited{
+    color: orange;
+} */
+
+/* wont work below */
+/* p:visited{
+    color: darkorchid;
+} */
+
+
+/* ------------------------------------ */
+/* nth-of-type */
+
+/* p:nth-of-type(3){
+    color: red;
+}
+
+p:nth-of-type(4){
+    border: 2px solid black;
+}
+
+p:nth-of-type(5){
+    background-color: rgb(0, 255, 217);
+} */
+
+/* ----------------- */
+/* first-child */
+
+/* p:first-child{
+    color: rgb(34, 255, 0);
+} */
+
+/* ------------------- */
+
+/* last-child */
+/* li:last-child {
+    color: 2px solid black;
+} */
+

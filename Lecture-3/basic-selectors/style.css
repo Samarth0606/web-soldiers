@@ -1,0 +1,55 @@
+
+/* element selector */
+/* h1{
+    color: red;
+} */
+
+/* ---------------------------------- */
+
+
+/* ID selector */
+
+/* #sam{
+    color: tomato;
+}
+#samarth{
+    background-color: lightgreen;
+} */
+
+/* ---------------------------------- */
+
+/* class selector */
+
+/* .vohra{
+    background-color: darkcyan;
+}
+
+.coding{
+    font-size: 60px;
+} */
+
+/* ---------------------------------- */
+
+/* attribute selector */
+
+/* input[type="text"]{
+    background-color: blueviolet;
+}
+
+input[type="password"]{
+    background-color: aqua;
+}
+
+a[href="http://google.com"]{
+    color: green;
+    font-size: 35px;
+} */
+
+/* ---------------------------------------- */
+
+/* universal selector -> harr ek element par styling do*/
+/* 
+*{
+    border: 2px solid black;
+    border: 2px dotted green;
+} */

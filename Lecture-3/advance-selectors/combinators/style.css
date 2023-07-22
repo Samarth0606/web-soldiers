@@ -1,0 +1,41 @@
+
+/* decendant selector */
+/* section em{
+    font-weight: 900;
+    text-decoration: line-through;
+} */
+
+
+/* section div p em{ */
+/* section div  em{ */
+/* section  em{
+    color: green;
+} */
+
+
+/* ------------------------------------- */
+
+/* child selector */
+
+/* section > p{ */
+/* section > p > em{
+    color: red;
+} */
+
+/* ------------------------------------- */
+
+/*  general sibling */
+
+/* h1 ~ p{
+    color: red;
+    font-size: 30px;
+} */
+
+/* ---------------------------------- */
+
+/* adjacent sibling */
+
+/* h1 + p{
+    color: red;
+    font-size: 30px;
+} */

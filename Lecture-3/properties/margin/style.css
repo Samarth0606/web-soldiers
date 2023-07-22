@@ -1,0 +1,39 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+
+    /* margin: 5px;  */
+
+    /* margin-top: 5px;
+    margin-left: 15px;
+    margin-right: 45px;
+    margin-bottom: 45px; */
+
+    /* margin: 10px 30px; */
+    
+    /* margin: 10px 30px 50px; */
+
+    /* margin: 10px 30px 50px 70px; */
+
+
+    /* padding: 10px; */
+
+    /* padding-top: 5px;
+    padding-right: 45px;
+    padding-bottom: 45px;
+    padding-left: 15px; */
+
+    /* padding: 10px 30px; */
+
+    padding: 10px 30px 50px;
+
+    /* padding: 10px 30px 50px 70px; */
+
+
+}
