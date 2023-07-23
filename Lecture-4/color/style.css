@@ -1,0 +1,26 @@
+
+
+/* rgb */
+h1{
+    color: rgb(129, 12, 200);
+}
+
+
+/* rgba */
+/* range of alpha is from 0 -> 1 */
+h2{
+    color: rgba(129, 12, 200, 0.6);
+}
+
+/* hexadecimal */
+h3{
+    color: #ff44c5;
+    background-color: #ffff77 ;
+}
+
+/* hexadecimal with opacity */ 
+/* range of alpha is from 0 -> f */
+h3{
+    color: #ff44c5af;
+    background-color: #ffff7734;
+}

@@ -1,0 +1,65 @@
+
+
+/* absolute unit -> kisi aur par dependant nahi hai */
+/* h1{
+    font-size: 10px;
+    color: red;
+}
+
+h2{
+    font-size: 30px;
+    color: purple;
+
+}
+
+h3{
+    font-size: 50px;
+    color: orange;
+} */
+
+
+
+/* relative units -> dependant hai */
+
+/* --- % ----*/
+/* section{
+    width: 600px;
+    background-color: antiquewhite;
+}
+
+article{
+    width: 50%;
+    border: 2px solid red;
+}
+
+div{
+    width: 50%;
+    background-color: aqua;
+} */
+
+/* --- em --- */
+/* snow ball effect */
+/* li{
+    font-size: 2em;
+} */
+
+/* --- rem --- */
+/* r -> root -> html */  /* 2 x html default size*/
+/* li{
+    font-size: 2rem; 
+} */
+
+
+/* vw & vh */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    height: 50vh;
+    width: 50vw;
+    background-color: crimson;
+}
+
+

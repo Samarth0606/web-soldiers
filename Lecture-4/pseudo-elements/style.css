@@ -1,0 +1,24 @@
+
+
+/* pseudo-elements */
+
+
+p::first-letter{
+    text-transform: uppercase;
+    font-size: 40px;
+    color: green;
+}
+
+p::first-line{
+    background-color: aqua;
+}
+
+p::before{
+    /* content: 'hi i am sam '; */
+    content: "\2665" ;
+}
+
+p::after{
+    content: "i am after it";
+    /* content: "\2665" ; */
+}
