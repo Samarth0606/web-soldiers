@@ -1,0 +1,23 @@
+h1{
+    background: linear-gradient(to right , yellow , orange , green , pink );
+}
+
+
+div{
+    background-image: url('https://images.unsplash.com/photo-1512621776951-a57141f2eefd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2FsYWR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=800&q=60') ;
+    width: 80vw;
+    height: 30vh;
+    margin: 20px;
+    border: 5px solid black;
+    background-repeat: no-repeat;
+    /* background-size: cover ; */
+    /* background-size: contain ; */
+    /* background-size: cover ; */
+    /* background-size: 100% 100%; */
+    background-position:  center;
+    background-position:  right;
+    background-position:  left;
+
+}
+
+

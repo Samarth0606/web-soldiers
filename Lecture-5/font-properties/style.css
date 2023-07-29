@@ -1,0 +1,51 @@
+
+
+/* h1{ */
+    /* font-size: 50px; */
+    /* font-size: 100px; */
+    /* font-family:monospace; */
+
+    /* font-weight: 100; */
+    /* font-weight: 900; */
+/* } */
+
+/* -------------------------- */
+
+/* p{ */
+    /* font-size: 50px; */
+    /* font-size: 100px; */
+    /* font-family:monospace; */
+
+    /* font-weight: 100; */
+    /* font-weight: 900; */
+    /* font-weight: bolder; */
+    /* font-weight: bold; */
+    /* font-weight: lighter; */
+    /* font-style: italic; */
+    /* font-style: oblique; */
+/* } */
+
+/* -------------------------- */
+
+/* p{
+    line-height: 50px;
+    letter-spacing: 2px;
+} */
+
+
+/* ------------------------------
+ */
+
+
+ /* h1{
+    text-align: center;
+    //text-shadow: X   Y   BLUR  COLOR
+    text-shadow:    5px 0px 2px rgb(70, 63, 54),
+                    5px 3px 2px burlywood,
+                    5px 6px 2px rgb(189, 121, 31),
+                    5px 9px 2px rgb(160, 222, 135) ;
+ } */
+
+ /* ---------------------------- */
+
+
