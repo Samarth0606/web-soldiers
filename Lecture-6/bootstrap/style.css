@@ -1,0 +1,22 @@
+.sam{
+    border: 1px solid black;
+}
+
+/* we can override */
+.col{
+    border: 1px solid black;
+}
+
+div{
+    /* width: 50vw; */
+    border: 2px solid black;
+}
+
+figure{
+    width: 600px;
+    border: 1px solid black;
+}
+
+img{
+    width: 100%;
+}
