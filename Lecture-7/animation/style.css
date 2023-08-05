@@ -1,0 +1,60 @@
+.row{
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+    animation-name: square;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 3;
+    animation-fill-mode: forwards;
+    animation-play-state: paused;
+    animation-direction: reverse;
+}
+
+.row:hover{
+    /* transform: translateX(200px); */
+    
+    /* animation-fill-mode: forwards; */
+    animation-play-state: running;
+
+}
+
+/* @keyframes square {
+    from{
+        transform: translateY(100px);
+    }
+    to{
+        transform: translateY(700px);
+
+    }
+    
+} */
+
+
+@keyframes square {
+    0%{
+        transform: translateY(100px);
+        background-color: yellow ;
+    }
+    25%{
+        transform: translateY(900px);
+        background-color: blueviolet;
+    }
+    50%{
+        transform: translateY(600px);
+        background-color: aquamarine;
+    }
+    75%{
+        transform: translateY(200px);
+        background-color: darkblue;
+    }
+    100%{
+        transform: translateY(700px);
+        background-color: red;
+
+    }
+    
+}
+
+

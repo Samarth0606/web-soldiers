@@ -1,0 +1,26 @@
+.row{
+    width: 150px;
+    height: 150px;
+    /* background: linear-gradient(green , red); */
+    border-top: 15px solid green;
+    border-right: 15px solid rgb(128, 47, 0);
+    border-bottom: 15px solid rgb(19, 0, 128);
+    border-left: 15px solid rgb(128, 0, 111);
+    border-radius: 50%;
+    margin: 20px auto;
+    animation-name: rotate;
+    animation-duration: 900ms;
+    animation-play-state: paused;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+.row:hover{
+    animation-play-state: running;
+}
+
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}

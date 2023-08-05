@@ -1,0 +1,40 @@
+.row{
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(yellow, green);
+    border: 2px solid black;
+    border-radius: 50%;
+    margin: 20px auto;
+}
+.row:hover{
+    animation-name: bounce;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    /* animation-direction: alternate; */
+    /* animation-timing-function: ease-in; */
+    
+}
+
+/* @keyframes bounce {
+    0%{
+        transform: translateY(10px) rotate(0deg);  
+    }
+    100%{
+        transform: translateY(800px) rotate(360deg);
+    }
+    
+} */
+
+
+@keyframes bounce {
+    0%{
+        transform: translateY(10px) rotate(0deg);  
+    }
+    50%{
+        transform: translateY(800px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+    
+}
