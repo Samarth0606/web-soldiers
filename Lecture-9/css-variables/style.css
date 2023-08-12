@@ -1,0 +1,11 @@
+:root{
+    --color-purple: rgb(169, 29, 229);
+    --color-red: rgb(224, 34, 17);
+}
+
+h1{
+    color: var(--color-purple);
+}
+p{
+    background-color: var(--color-red);
+}
