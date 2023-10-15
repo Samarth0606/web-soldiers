@@ -1,0 +1,21 @@
+.first{
+    font-size: 50px;
+    color: red;
+}
+
+.second{
+    background-color: purple;
+    text-decoration: line-through;
+}
+
+.third{
+    border: 10px solid green;
+}
+
+
+#divv{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+
+}
