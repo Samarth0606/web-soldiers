@@ -73,7 +73,7 @@ let obj = {
     age: 29,
     gender : "male"
 }
-
+ 
 // let [] = courses;
 // let {first , second , third} = obj;
 // let {naam , age, gender} = obj;
