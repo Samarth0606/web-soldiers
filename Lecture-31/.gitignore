@@ -1,0 +1,6 @@
+templates/node_modules
+templates/package-lock.json
+
+
+path-and-query-parameter/node_modules
+path-and-query-parameter/package-lock.json
