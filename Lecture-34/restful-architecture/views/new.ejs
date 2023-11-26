@@ -1,0 +1,22 @@
+
+    
+<%- include('./partials/header') %>
+
+<h1>Form to add a new Blog</h1>
+
+<form action="/blogs" method="POST">
+    <section>
+        <label for="aadmi">Author: </label>
+        <input type="text" name="author" id="aadmi">
+    </section>
+    <section>
+        <label for="blog">Comment: </label>
+        <br>
+        <textarea name="comment" id="blog" cols="30" rows="4"></textarea>
+    </section>
+    
+    <button type="submit">Add blog</button>
+</form>
+
+
+<%- include('./partials/footer') %>
