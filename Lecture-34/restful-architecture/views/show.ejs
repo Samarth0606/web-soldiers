@@ -10,6 +10,12 @@
     <h2><%=foundProduct.author%></h2>
     <p><%=foundProduct.comment%></p>
     <p><button> <a href="/blogs">Back</a> </button></p>
+    <p><button> <a href="/blogs/<%=foundProduct.id%>/edit">Edit</a> </button></p>
+    <p>
+        <form action="/blogs/<%=foundProduct.id%>?_method=DELETE" method="POST">
+            <button type="submit">Delete</button>
+        </form>
+    </p>
 </div>
 
 <%- include('./partials/footer') %>
