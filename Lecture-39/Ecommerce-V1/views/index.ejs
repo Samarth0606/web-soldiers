@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <h1>Displayig all the products</h1>
+
+    <section>
+    
+        <% for(let item of products){ %>
+            <div>
+                <h1> <%=item.name%> </h1>
+                <img src="<%=item.img%>">
+                <h2> <%=item.price%> </h2>
+                <h5> <%=item.instock%> </h5>
+                <p> <%=item.desc%> </p>
+            </div>
+        <% } %>
+
+    </section>
+
+</body>
+</html>

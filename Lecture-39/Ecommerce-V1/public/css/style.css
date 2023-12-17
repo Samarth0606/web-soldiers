@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div{
+
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    background-color: rgb(122, 134, 151) ;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+
+h1 , h2 , p , h5{
+    text-align: center;
+}
