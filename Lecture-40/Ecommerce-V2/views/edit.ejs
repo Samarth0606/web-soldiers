@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Form</title>
+</head>
+<body>
+    
+
+    <h1>Form to Edit a product</h1>
+
+    <form action="/products/<%=foundProduct._id%>?_method=PATCH" method="POST">
+        <!-- <div>
+            <label for="naam">Name:</label>
+            <input type="text" name="name" id="naam">
+        </div> -->
+        <div>
+            <label for="Image">Image:</label>
+            <input type="text" name="img" id="Image" value="<%=foundProduct.img%>">
+        </div>
+        <div>
+            <label for="price">Price:</label>
+            <input type="text" name="price" id="price" value="<%=foundProduct.price%>">
+        </div>
+        <div>
+            <label for="stock">In Stock:</label>
+            <input type="text" name="instock" id="stock" value="<%=foundProduct.instock%>">
+        </div>
+        <div>
+            <label for="des">Description:</label>
+            <textarea name="desc" id="des" rows="3">  <%=foundProduct.desc%> </textarea>
+        </div>
+
+        <button type="submit">Edit Product</button>
+    </form>
+
+</body>
+</html>
