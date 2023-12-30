@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+div{
+    margin-top: 20px;
+    min-width: 200px;
+    height: 370px;
+    border: 2px solid black;
+    background-color: rgb(122, 134, 151) ;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 , h2 , p , h5 {
+    text-align: center;
+}

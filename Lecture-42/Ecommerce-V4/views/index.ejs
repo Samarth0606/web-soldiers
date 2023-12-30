@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    
+    <h1>Displayig all the products</h1>
+    <h2> <a href="/product/new">Create a new Product</a> </h2>
+
+    <section>
+    
+        <% for(let item of products){ %>
+            <div>
+                <h1> <%=item.name%> </h1>
+                <img src="<%=item.img%>">
+                <h2> <%=item.price%> </h2>
+                <h5> <%=item.instock%> </h5>
+                <p> <%=item.desc%> </p>
+                <a href="/products/<%=item._id%>"><button>Show</button></a>
+                <a href="/products/<%=item._id%>/edit"><button>Edit</button></a>
+                <form action="/products/<%=item._id%>?_method=DELETE" method="POST">
+                    <button>Delete</button>
+                </form>
+            </div>
+        <% } %>
+
+    </section>
+
+</body>
+</html>
