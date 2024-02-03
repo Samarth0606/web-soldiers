@@ -17,6 +17,7 @@ function Memoo() {
   );
 }
 const Tod = memo(function ({ titl }) {
+  console.log("hi");
   return (
     <>
       <h1>Title:{titl} </h1>
